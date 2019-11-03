@@ -1,1 +1,1 @@
-This is Calvin's Website
+React Redux SCSS Webpack Starter Kit
