@@ -44,6 +44,18 @@ module.exports = {
   devServer: { 
     historyApiFallback: true
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
+      '@container': path.resolve(__dirname, 'src/js/components/container'),
+      '@presentational': path.resolve(__dirname, 'src/js/components/presentational'),
+      '@tils': path.resolve(__dirname, 'src/js/utils'),
+      '@reducer': path.resolve(__dirname, 'src/js/redux/index.js'),
+      '@actionTypes': path.resolve(__dirname, 'src/js/redux/action-types.js'),
+      '@store': path.resolve(__dirname, 'src/js/store/index.js'),
+      '@scss': path.resolve(__dirname, 'src/scss/index.scss'),
+    }
+  },
   plugins: [
     new HtmlWebPackPlugin({
       template: "./index.html",

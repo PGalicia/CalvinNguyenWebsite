@@ -7,7 +7,7 @@
 // Imports
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import Home from "./_home.jsx";
+import Home from "@container/_home.jsx";
 
 const Main = props => {
   return (
