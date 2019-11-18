@@ -1,3 +1,9 @@
+/*
+    File: index.js
+    Author: Patrick Galicia
+    Desc: Base Redux store file
+*/
+
 import {
     createStore
 } from "redux";

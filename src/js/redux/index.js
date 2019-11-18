@@ -1,3 +1,9 @@
+/*
+    File: index.js
+    Author: Patrick Galicia
+    Desc: Base Redux file. Redux actions and reducers must be defined here
+*/
+
 import { PRINT_TEXT } from "@actionTypes";
 
 // Actions
